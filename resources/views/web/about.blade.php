@@ -40,7 +40,7 @@
                         <div class="gallery-bar bg-yellow"></div>
 
                         <div class="why-choose__media">
-                            <img src="{{ asset('images/about-us-02.jpg') }}" alt class="img-fluid">
+                            <img loading="lazy"  src="{{ asset('images/about-us-02.jpg') }}" alt class="img-fluid">
                         </div>
                     </div>
                 </div>
@@ -49,7 +49,7 @@
                     <div class="why-choose__content mt-lg-60 mt-md-50 mt-sm-40 mt-xs-35">
                         <div class="why-choose__text mb-40 mb-md-35 mb-sm-30 mb-xs-30">
                             <span
-                                class="sub-title d-block fw-500 color-yellow text-uppercase mb-sm-10 mb-xs-5 mb-md-15 mb-lg-20 mb-25"><img
+                                class="sub-title d-block fw-500 color-yellow text-uppercase mb-sm-10 mb-xs-5 mb-md-15 mb-lg-20 mb-25"><img loading="lazy"
                                     src="assets/img/team-details/badge-line-yellow.svg" class="img-fluid mr-10" alt> Why
                                 choose
                                 us</span>

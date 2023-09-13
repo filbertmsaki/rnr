@@ -89,7 +89,7 @@
             <div class="row">
                 <div class="col-xl-6">
                     <div class="about-us__content  mb-lg-60 mb-md-50 mb-sm-40 mb-xs-30">
-                        <span class="sub-title fw-500 color-yellow text-uppercase mb-sm-10 mb-xs-5 mb-15 d-block"><img
+                        <span class="sub-title fw-500 color-yellow text-uppercase mb-sm-10 mb-xs-5 mb-15 d-block"><img loading="lazy"
                                 src="assets/img/team-details/badge-line-yellow.svg" class="img-fluid mr-10" alt> About
                             Us</span>
                         <h2 class="title color-secondary mb-20 mb-sm-15 mb-xs-10">Why Choosing US</h2>
@@ -141,7 +141,7 @@
                 <div class="col-xl-6">
                     <div class="about-us__media d-flex align-content-center justify-content-center align-items-center">
                         <div class="media">
-                            <img src="{{ asset('images/about-us-01.jpg') }}" class="img-fluid" width="350" alt>
+                            <img loading="lazy"  src="{{ asset('images/about-us-01.jpg') }}" class="img-fluid" width="350" alt>
                         </div>
                         <div class="expert-team expert-team-two text-center"
                             style="background-image: url({{ asset('images/Event-management.jpg') }})">
@@ -166,7 +166,7 @@
             <div class="row">
                 <div class="col-12">
                     <div class="employee-friendly__content mb-65 mb-md-50 mb-sm-40 mb-xs-30 text-center">
-                        <span class="sub-title fw-500 color-yellow text-uppercase mb-sm-10 mb-xs-5 mb-15 d-block"><img
+                        <span class="sub-title fw-500 color-yellow text-uppercase mb-sm-10 mb-xs-5 mb-15 d-block"><img loading="lazy"
                                 src="assets/img/team-details/badge-line-yellow.svg" class="img-fluid mr-10" alt> Our
                             Services</span>
                         <h2 class="title color-d_black">What We Do</h2>
@@ -202,7 +202,7 @@
             <div class="row align-items-center ">
                 <div class="col-lg-9">
                     <div class="blog-news__content">
-                        <span class="sub-title fw-500 color-yellow text-uppercase mb-sm-10 mb-xs-5 mb-15 d-block"><img
+                        <span class="sub-title fw-500 color-yellow text-uppercase mb-sm-10 mb-xs-5 mb-15 d-block"><img loading="lazy"
                                 src="assets/img/team-details/badge-line.svg" class="img-fluid mr-10"
                                 alt="">OUR RECENT WORKS</span>
                         <h2 class="title color-d_black">Amazing Work <span>Showcase</span></h2>
@@ -223,7 +223,7 @@
             @foreach ($portfolios as $portfolio)
                 <div class="slider-item">
                     <div class="our-project__item overflow-hidden">
-                        <img src="{{ $portfolio->file }}" alt>
+                        <img loading="lazy"  src="{{ $portfolio->file }}" alt>
 
                         <div class="content d-flex align-items-center justify-content-between">
                             <div class="text">
@@ -259,7 +259,7 @@
                         </div>
 
                         <div class="help-text mb-md-25 mb-sm-25 mb-xs-20 mb-lg-25 mb-40">
-                            <a><img src="assets/img/icon/question-comment.svg" class="img-fluid mr-xs-10 mr-20"
+                            <a><img loading="lazy"  src="assets/img/icon/question-comment.svg" class="img-fluid mr-xs-10 mr-20"
                                     alt="">Need help? <span>Contact Us</span></a>
                         </div>
 
@@ -279,7 +279,7 @@
                                 class="theme-btn d-flex flex-column flex-md-row align-items-md-center">
                                 <div class="icon">
                                     <i class="icon-email-1"></i>
-                                    <!-- <img src="assets/img/icon/phone-1.svg" alt=""> -->
+                                    <!-- <img loading="lazy"  src="assets/img/icon/phone-1.svg" alt=""> -->
                                 </div>
                                 <div class="text">
                                     <span class="font-la mb-10 d-block fw-500 color-d_black">Email Drop Us</span>
@@ -295,7 +295,7 @@
                     <div
                         class="contact-form pt-md-30 pt-sm-25 pt-xs-20 pb-md-40 pb-sm-35 pb-xs-30 pt-xl-30 pb-xl-50 pt-45 pr-xl-50 pl-md-40 pl-sm-30 pl-xs-25 pr-md-40 pr-sm-30 pr-xs-25 pl-xl-50 pr-85 pb-60 pl-85">
                         <div class="contact-form__header mb-sm-35 mb-xs-30 mb-40">
-                            <h6 class="sub-title fw-500 color-primary text-uppercase mb-15"><img
+                            <h6 class="sub-title fw-500 color-primary text-uppercase mb-15"><img loading="lazy"
                                     src="assets/img/team-details/badge-line.svg" class="img-fluid mr-10"
                                     alt=""> Get In Touch</h6>
                             <h3 class="title color-d_black">Free Consultation</h3>

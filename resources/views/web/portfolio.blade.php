@@ -37,7 +37,7 @@
                 @foreach ($portfolios as $portfolio)
                 <div class="col-lg-4 col-sm-6">
                     <div class="our-project__item overflow-hidden mb-30">
-                        <img src="{{ $portfolio->file }}" alt="">
+                        <img loading="lazy"  src="{{ $portfolio->file }}" alt="">
 
                         <div class="content d-flex align-items-center justify-content-between">
                             <div class="text">
@@ -45,7 +45,7 @@
                                 <h5 class="title color-d_black">{{ $portfolio->title }}</h5>
                             </div>
 
-                            <a href="javascript:void(0)" class="theme-btn"><img src="assets/img/icon/arrow-right-top.svg" alt=""></a>
+                            <a href="javascript:void(0)" class="theme-btn"><img loading="lazy"  src="assets/img/icon/arrow-right-top.svg" alt=""></a>
                         </div>
                     </div>
                 </div>

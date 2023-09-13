@@ -26,8 +26,8 @@
 
                 <div class="col-md-6">
                     <div class="page-banner__media mt-xs-30 mt-sm-40">
-                        {{-- <img src="assets/img/page-banner/page-banner-start.svg" class="img-fluid start" alt="">
-                        <img src="assets/img/page-banner/page-banner.jpg" class="img-fluid" alt=""> --}}
+                        {{-- <img loading="lazy"  src="assets/img/page-banner/page-banner-start.svg" class="img-fluid start" alt="">
+                        <img loading="lazy"  src="assets/img/page-banner/page-banner.jpg" class="img-fluid" alt=""> --}}
                     </div>
                 </div>
             </div>

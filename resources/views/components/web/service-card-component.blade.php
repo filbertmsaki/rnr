@@ -10,7 +10,7 @@
 
     <div class="bottom">
         <div class="media overflow-hidden">
-            <img src="{{ $service->photo }}" class="img-fluid" alt="">
+            <img loading="lazy"  src="{{ $service->photo }}" class="img-fluid" alt="">
         </div>
 
         <div

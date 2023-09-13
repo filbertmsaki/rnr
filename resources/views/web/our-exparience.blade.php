@@ -38,7 +38,7 @@
             <div class="row">
                 <div class="col-lg-3 col-sm-6">
                     <div class="our-company__meida">
-                        <img src="{{ asset('images/why-img1.jpg') }}" alt="" class="img-fluid">
+                        <img loading="lazy"  src="{{ asset('images/why-img1.jpg') }}" alt="" class="img-fluid">
 
                         <div class="years-experience overflow-hidden mt-20 mt-sm-10 mt-xs-10 text-center">
                             <div class="number mb-5 color-white">
@@ -52,7 +52,7 @@
 
                 <div class="col-lg-3 col-sm-6">
                     <div class="our-company__meida border-radius">
-                        <img src="{{ asset('images/why-img2.jpg') }}" alt="" class="img-fluid">
+                        <img loading="lazy"  src="{{ asset('images/why-img2.jpg') }}" alt="" class="img-fluid">
 
                         <div class="horizental-bar"></div>
                     </div>
@@ -60,7 +60,7 @@
 
                 <div class="col-lg-6">
                     <div class="our-company__content mt-md-50 mt-sm-40 mt-xs-35">
-                        <span class="sub-title fw-500 color-primary text-uppercase mb-sm-10 mb-xs-5 mb-20 d-block"><img
+                        <span class="sub-title fw-500 color-primary text-uppercase mb-sm-10 mb-xs-5 mb-20 d-block"><img loading="lazy"
                                 src="assets/img/team-details/badge-line.svg" class="img-fluid mr-10" alt="">
                             Know Our Exparience</span>
 

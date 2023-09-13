@@ -37,7 +37,7 @@
         <div class="container">
 
             <div>
-                <span class="sub-title d-block fw-500 color-primary text-uppercase mb-sm-10 mb-xs-5 mb-md-15 mb-20"><img
+                <span class="sub-title d-block fw-500 color-primary text-uppercase mb-sm-10 mb-xs-5 mb-md-15 mb-20"><img loading="lazy"
                         src="assets/img/team-details/badge-line.svg" class="img-fluid mr-10" alt="">Company
                     Skills</span>
                 <h2 class="title color-pd_black mb-25 mb-xs-10 mb-sm-15"></h2>

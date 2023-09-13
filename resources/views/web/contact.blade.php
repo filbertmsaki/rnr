@@ -26,8 +26,8 @@
 
                 <div class="col-md-6">
                     <div class="page-banner__media mt-xs-30 mt-sm-40">
-                        <img src="assets/img/page-banner/page-banner-start.svg" class="img-fluid start" alt>
-                        {{-- <img src="assets/img/page-banner/page-banner-1.jpg" class="img-fluid" alt> --}}
+                        <img loading="lazy"  src="assets/img/page-banner/page-banner-start.svg" class="img-fluid start" alt>
+                        {{-- <img loading="lazy"  src="assets/img/page-banner/page-banner-1.jpg" class="img-fluid" alt> --}}
                     </div>
                 </div>
             </div>
@@ -40,7 +40,7 @@
             <div class="row">
                 <div class="col-lg-6">
                     <div class="contact-us__content">
-                        <h6 class="sub-title fw-500 color-primary text-uppercase mb-sm-15 mb-xs-10 mb-20"><img
+                        <h6 class="sub-title fw-500 color-primary text-uppercase mb-sm-15 mb-xs-10 mb-20"><img loading="lazy"
                                 src="assets/img/team-details/badge-line.svg" class="img-fluid mr-10" alt> contact us
                         </h6>
                         <h2 class="title color-d_black mb-sm-15 mb-xs-10 mb-20">Get
@@ -120,7 +120,7 @@
                             <div
                                 class="contact-form pt-md-30 pt-sm-25 pt-xs-20 pb-md-40 pb-sm-35 pb-xs-30 pt-xl-30 pb-xl-50 pt-45 pr-xl-50 pl-md-40 pl-sm-30 pl-xs-25 pr-md-40 pr-sm-30 pr-xs-25 pl-xl-50 pr-85 pb-60 pl-85">
                                 <div class="contact-form__header mb-sm-35 mb-xs-30 mb-40">
-                                    <h6 class="sub-title fw-500 color-primary text-uppercase mb-15"><img
+                                    <h6 class="sub-title fw-500 color-primary text-uppercase mb-15"><img loading="lazy"
                                             src="assets/img/team-details/badge-line.svg" class="img-fluid mr-10" alt>
                                         Need help?
                                     </h6>

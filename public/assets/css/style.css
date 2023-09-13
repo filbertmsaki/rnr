@@ -20917,3 +20917,13 @@ header.hover-color-green
     padding: 21px 200px 21px 20px;
     border: none !important;
 }
+
+@media (max-width: 768px) {
+    .our-team.our-porfolio .our-project__item .content .theme-btn {
+        display: none;
+    }
+
+    .our-project__item .content .text {
+        padding: 13px 0px 13px 15px;
+    }
+}

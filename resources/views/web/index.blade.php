@@ -232,7 +232,7 @@
                                 <h5 class="title color-secondary">{{ @$portfolio->title }}</h5>
                             </div>
 
-                            <a href="{{ route('web.portfolio.index') }}" class="theme-btn d-none d-md-block"><i
+                            <a href="{{ route('web.portfolio.index') }}" class="theme-btn "><i
                                     class="icon-arrow-right-2"></i></a>
                         </div>
                     </div>

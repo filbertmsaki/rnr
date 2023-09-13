@@ -252,7 +252,7 @@ Author: RRDevs
 			infinite: true,
 			slidesToScroll: 1,
 			centerMode: true,
-			autoplaySpeed: 1500,
+			autoplaySpeed: 3000,
         	centerPadding: '621px',
 			responsive: [
 				{

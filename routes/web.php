@@ -13,7 +13,6 @@ use App\Http\Controllers\PortfolioController;
 use App\Http\Controllers\PostController;
 use App\Http\Controllers\ServicesController;
 use App\Http\Controllers\WebController;
-use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -28,8 +27,11 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/link', function () {
-    Artisan::call('storage:link');
-    });
+    $targetFolder = base_path() . '/storage/app/public';
+    $linkFolder = $_SERVER['DOCUMENT_ROOT'] . '/storage';
+    symlink($targetFolder, $linkFolder);
+    
+});
 
 Route::group(['as' => 'web.'], function () {
 
